@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: Main Camera Profile
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: 114793490731596738}
+--- !u!114 &114793490731596738
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b49f79437b577941afc2c6a6179d01a, type: 3}
+  m_Name: YoukiaVolumetricClouds
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  cloudsCenterPos:
+    overrideState: 1
+    value: {x: 0, y: 9, z: 0}
+  cloudsSize:
+    overrideState: 1
+    value: {x: 50, y: 2, z: 50}
+  step:
+    overrideState: 1
+    value: -2
+  stepCount:
+    overrideState: 1
+    value: 26.3
+  stepLength:
+    overrideState: 1
+    value: 0.662
+  cloudsNoiseTex:
+    overrideState: 1
+    value: {fileID: 11700000, guid: f96140ac6e0647b489b04ca0a2a43d96, type: 2}
+    defaultState: 1
+  cloudsNoiseScale:
+    overrideState: 1
+    value: 0.08
+  cloudsNoiseSpeed:
+    overrideState: 1
+    value: {x: 0, y: 0, z: 0.5}
+  lightAbsorptionTowardSun:
+    overrideState: 1
+    value: 2.09
+  lightAbsorptionThroughCloud:
+    overrideState: 1
+    value: 4.17
+  colorA:
+    overrideState: 1
+    value: {r: 0.92136884, g: 0.9528302, b: 0.9500927, a: 1}
+  colorB:
+    overrideState: 1
+    value: {r: 0.43467426, g: 0.68427366, b: 0.8301887, a: 1}
+  colorOffsetA:
+    overrideState: 1
+    value: 0.34
+  colorOffsetB:
+    overrideState: 1
+    value: 0.82
+  darknessThreshold:
+    overrideState: 1
+    value: 0.151
+  phaseParams:
+    overrideState: 1
+    value: {x: 0.94, y: -1.44, z: 5.69, w: 0.97}
+  weatherMap:
+    overrideState: 1
+    value: {fileID: 2800000, guid: b8751af29dbb7514aba3ba2cebae0439, type: 3}
+    defaultState: 1
+  shapeNoiseWeights:
+    overrideState: 1
+    value: {x: 7.75, y: -2.98, z: -4.02, w: 5.11}
+  densityOffset:
+    overrideState: 1
+    value: 1.73
+  edgeFadeDst:
+    overrideState: 1
+    value: 5.03
+  densityMultiplier:
+    overrideState: 1
+    value: 1.14
+  cloudsNoiseDetailTex:
+    overrideState: 1
+    value: {fileID: 11700000, guid: f96140ac6e0647b489b04ca0a2a43d96, type: 2}
+    defaultState: 1
+  cloudsNoiseDetailScale:
+    overrideState: 1
+    value: 0.05
+  cloudsNoiseDetailSpeed:
+    overrideState: 1
+    value: {x: 0, y: 0, z: 2.43}
+  cloudsNoiseDetailWeights:
+    overrideState: 1
+    value: 9.13
+  noiseDetailWeight:
+    overrideState: 1
+    value: 1.65
+  blueNoise:
+    overrideState: 1
+    value: {fileID: 2800000, guid: 3413e4a0a092a634a9b6fb9d92179ca6, type: 3}
+    defaultState: 1
+  blueNoiseStrength:
+    overrideState: 1
+    value: 0.544
+  downSample:
+    overrideState: 1
+    value: 1
